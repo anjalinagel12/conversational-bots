@@ -1,0 +1,30 @@
+{
+  "states": [
+    "intent_affirm",
+    "intent_deny",
+    "intent_period",
+    "intent_repeat",
+    "entity_days",
+    "slot_days_0",
+    "prev_action_listen",
+    "prev_action_restart",
+    "prev_action_session_start",
+    "prev_action_default_fallback",
+    "prev_action_deactivate_form",
+    "prev_action_revert_fallback_events",
+    "prev_action_default_ask_affirmation",
+    "prev_action_default_ask_rephrase",
+    "prev_action_back",
+    "prev_action_ask_breathing_when",
+    "prev_action_ask_cough_when",
+    "prev_action_ask_fever_when",
+    "prev_action_ask_help",
+    "prev_action_ask_travel",
+    "prev_action_ask_travel_when",
+    "prev_action_fallback",
+    "prev_action_schedule_appointment",
+    "prev_action_utter_breathingProblem",
+    "prev_action_utter_coldCough",
+    "prev_action_utter_fever"
+  ]
+}

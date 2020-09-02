@@ -1,0 +1,53 @@
+intents:
+  - affirm
+  - deny
+  - intent_age
+  - intent_name
+
+entities:
+- name
+- age
+
+actions:
+  - action_fallback
+
+slots:
+  question1:
+    type: unfeaturized
+  question2:
+    type: unfeaturized
+  question3:
+    type: unfeaturized
+  requested_slot:
+    type: unfeaturized
+  name:
+    type: unfeaturized
+  age:
+    type: unfeaturized
+
+forms:
+  - form_question1
+  - form_question2
+  - form_question3
+
+responses:
+  utter_ask_question1:
+  - text: Welcome to Sanvijini Hospital. To book your appointment please tell your good name 
+  utter_ask_question2:
+  - text: Okay, please let me know your age
+  utter_ask_question3:
+  - text: Can you please tell me your address
+  utter_successful:
+  - text: Thank you. We have booked your appointment. We will call your name shortly. please wait for sometime
+  utter_ask_help:
+  - text: Do you want to book your appointment. Please say yes or no
+  utter_bye:
+  - text: Okay, Bye. Have a nice day!
+
+
+
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

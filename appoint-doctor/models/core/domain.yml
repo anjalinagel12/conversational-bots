@@ -1,0 +1,65 @@
+actions:
+- action_fallback
+- utter_ask_question1
+- utter_ask_question2
+- utter_ask_question3
+- utter_bye
+- utter_successful
+config:
+  store_entities_as_slots: true
+entities:
+- age
+- name
+forms:
+- form_question1
+- form_question2
+- form_question3
+intents:
+- affirm:
+    use_entities: true
+- deny:
+    use_entities: true
+- intent_age:
+    use_entities: true
+- intent_name:
+    use_entities: true
+responses:
+  utter_ask_question1:
+  - text: Welcome to Sanvijini Hospital. To book your appointment please tell your
+      good name
+  utter_ask_question2:
+  - text: Okay, please let me know your age
+  utter_ask_question3:
+  - text: Can you please tell me your address
+  utter_bye:
+  - text: Do you want to book your appointment. Please say yes or no
+  utter_successful:
+  - text: Thank you. please wait for sometime
+session_config:
+  carry_over_slots_to_new_session: true
+  session_expiration_time: 60
+slots:
+  age:
+    auto_fill: true
+    initial_value: null
+    type: rasa.core.slots.UnfeaturizedSlot
+  name:
+    auto_fill: true
+    initial_value: null
+    type: rasa.core.slots.UnfeaturizedSlot
+  question1:
+    auto_fill: true
+    initial_value: null
+    type: rasa.core.slots.UnfeaturizedSlot
+  question2:
+    auto_fill: true
+    initial_value: null
+    type: rasa.core.slots.UnfeaturizedSlot
+  question3:
+    auto_fill: true
+    initial_value: null
+    type: rasa.core.slots.UnfeaturizedSlot
+  requested_slot:
+    auto_fill: true
+    initial_value: null
+    type: rasa.core.slots.UnfeaturizedSlot

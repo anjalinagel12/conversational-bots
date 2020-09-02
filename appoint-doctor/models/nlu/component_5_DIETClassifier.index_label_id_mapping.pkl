@@ -1,0 +1,1 @@
+{"0": "affirm", "1": "deny", "2": "intent_age", "3": "intent_name"}

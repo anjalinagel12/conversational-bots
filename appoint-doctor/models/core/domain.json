@@ -1,0 +1,31 @@
+{
+  "states": [
+    "intent_affirm",
+    "intent_deny",
+    "intent_intent_age",
+    "intent_intent_name",
+    "entity_age",
+    "entity_name",
+    "prev_action_listen",
+    "prev_action_restart",
+    "prev_action_session_start",
+    "prev_action_default_fallback",
+    "prev_action_deactivate_form",
+    "prev_action_revert_fallback_events",
+    "prev_action_default_ask_affirmation",
+    "prev_action_default_ask_rephrase",
+    "prev_action_back",
+    "prev_action_fallback",
+    "prev_utter_ask_question1",
+    "prev_utter_ask_question2",
+    "prev_utter_ask_question3",
+    "prev_utter_bye",
+    "prev_utter_successful",
+    "prev_form_question1",
+    "prev_form_question2",
+    "prev_form_question3",
+    "active_form_form_question1",
+    "active_form_form_question2",
+    "active_form_form_question3"
+  ]
+}

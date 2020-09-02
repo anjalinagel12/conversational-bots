@@ -1,0 +1,15 @@
+{
+    "utter_ask_help":"Hello, Welcome to sanjivini Hospital. How can we help you",
+    "utter_ask_travel":"Okay, did you tavel recently?",
+    "utter_ask_travel_when":"How many days back did you travel?",
+    "utter_coldCough":"Okay, Do you have cough?",
+    "utter_ask_cough_when":"From how many days do you have cough?",
+    "utter_fever":"Okay, Do you have fever also",
+    "utter_ask_fever_when":"Please tell me, from how long are you suffering from fever?",
+    "utter_breathingProblem":"Are you facing any breathing problem also",
+    "ask_breathing_when":"Kindly let me know, from how long are you facing breathing problem",
+    "utter_schedule_appointment":"We have scheduled an appointment as per your health status with doctor_name. Please wait for sometime. Thank you",
+    "initial_message":"How can we help you",
+    "utter_fallback":"Sorry, we couldn't understand you"
+
+}

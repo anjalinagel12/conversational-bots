@@ -1,0 +1,361 @@
+## intent:affirm
+- Yes
+- Yes yes
+- Yes positively
+- Yes surely
+- Yes definitely
+- Yes i will
+- Yes why not
+- Yes i would like to
+- yeah sure
+- yes
+- of course
+- sure
+- yeah
+- ok
+- cool
+- yep
+- yep will do thank you
+- I am sure I will
+- awesome
+- accept
+- i accept
+- ok i accept
+- ok cool
+- alright
+- i will
+- oki doki
+- confirm
+- nice
+- yup
+- sure thing
+- absolutely
+- yes i accept
+- ofcourse
+- i am sure i will
+- yes please
+- definitely
+- perfect
+- Sure
+- great
+- fine
+- yupe
+- right time to talk
+- yes it's right time to talk
+- good time to talk
+- yes i will make the payment
+- no delay in payment
+- call customer care
+- yes i need to talk to customer care
+- call agent
+- yes i need to talk to agent
+- i told you to go ahead
+- yes i need to talk to agent
+- i told you to go ahead
+- you are correct
+- carry on
+- go on
+- okey dokey
+- positive
+- Go ahead
+- proceed
+- continue
+- correctji
+- correct ji
+- haan madam
+- haan sir
+- ok madam
+- ok sir
+- ok ji
+- teeke ji
+- teeke teeke
+- teakay ji
+- teekai ji
+- go on
+- carry on
+- correct madam
+- correct sir
+- aur boliye
+- aur bolo
+- Yass
+- Yes
+- yess
+- yep
+- yeah
+- yes i have a cold
+- yes i have a cough
+- yes i have a fever
+- yes i have a breathing problem
+- i have cold
+- i have cough
+- yes i have a fever
+- yes i have a breathing problem
+- i have cold
+- i have cough
+- i have fever
+- i have breathing problem
+- i am having trouble breathing
+- i have both cold and cough
+- i have cold cough
+- cold yes
+- cough yes
+- cold cough yes
+- fever yes
+- breathing problem yes
+- yes i had travelled recently
+- i had travelled recently
+- yes i was travelling
+
+
+## intent:deny
+- no
+- now
+- now now
+- unsure about that
+- unsure now
+- not now
+- now no
+- never
+- cannot decide that now
+- i do not confirm
+- definitely not
+- absolutely not
+- im afraid not
+- no sir
+- no ma'am
+- no way
+- no sorry
+- nah not for me
+- nah
+- no and no again
+- no go
+- no thanks
+- decline
+- i decline
+- no i dont accept
+- no i cant
+- i am not sure
+- nein
+- not really
+- i guess it means no
+- nah thanks
+- no thankyou
+- nope
+- sorry
+- no no
+- cant
+- cannot
+- i will do it later
+- dont call me again
+- not a good time
+- payment will be delayed
+- delayed payment will be made
+- cant make payment right now
+- cannot make the payment
+- cant pay in next few days
+- no money right now
+- i will pay later
+- can you give me some more time
+- need some time to make the payment
+- very less time given to make the payment
+- cant pay
+- dont call agent
+- no need to call the agent
+- agent support not required
+- false
+- deny
+- i dont know my pincode
+- i cant pay right now
+- dont have money
+- i cant pay
+- no money
+- i dont have cold
+- i dont have cough
+- i dont have cold cough
+- i dont have fever
+- i dont have breathing problem
+- no cold
+- no cough
+- no cold cough
+- no fever
+- no breathing problem
+- i do not have cold
+- i do not have cough
+- i do not have either cold or cough
+- i don not have fever
+- i do not have breathing problem
+- no i didnot travel
+- no i was at my home
+- no i did not step out
+- no 
+
+## intent:repeat
+- please repeat
+- tell me again
+- can you repeat
+- i did not get you
+- please come again
+- i did not understand
+- what did u tell
+- repeat again
+- i dint get u
+- sorry i did not get u
+- i didnt understand
+- excuse me can you repeat it again
+- excuse me can you say it again
+- sorry did not get you
+- come again
+- say again
+- tell me again please
+- repeat
+- say that again
+- tell that again
+- pardon
+- pardon me
+- i beg your pardon
+
+
+
+
+
+
+
+## intent:period
+- [days](days)
+- [month](days)
+- [year](days)
+- [week](days)
+- [weak](days)
+- for about a [days](days)
+- for about a [month](days)
+- for about a [year](days)
+- for about a [week](days)
+- for about a [weak](days)
+- i dont know maybe a [days](days)
+- i dont know maybe a [month](days)
+- i dont know maybe a [year](days)
+- i dont know maybe a [week](days)
+- i dont know maybe a [weak](days)
+- a [days](days) maybe
+- a [month](days) maybe
+- a [year](days) maybe
+- a [week](days) maybe
+- a [weak](days) maybe
+- i dont know maybe [days](days)
+- i dont know maybe [month](days)
+- i dont know maybe [year](days)
+- i dont know maybe [week](days)
+- i dont know maybe
+- more than a [day](days)
+- more than a [month](days)
+- more than a [year](days)
+- more than a [week](days)
+- more than a [weak](days)
+- a few [days](days)
+- a few [month](days)
+- a few [year](days)
+- a few [week](days)
+- a few [weak](days)
+- from last few [days](days)
+- from last [month](days)
+- from last [year](days)
+- from last [week](days)
+- from last [weak](days)
+- from [monday](days)
+- from [tuesday](days)
+- from [wednesday](days)
+- from [thursday](days)
+- from [friday](days)
+- from [saturday](days)
+- from [sunday](days)
+- [yesterday](days)
+- [yester day](days)
+- [today](days)
+- [to day](days)
+- [day before yesterday](days)
+- [0](days)
+- [1](days)
+- [2](days)
+- [3](days)
+- [4](days)
+- [5](days)
+- [6](days)
+- [7](days)
+- [8](days)
+- [9](days)
+- [10](days)
+- [11](days)
+- [12](days)
+- [13](days)
+- [14](days)
+- [15](days)
+- [16](days)
+- [17](days)
+- [18](days)
+- [19](days)
+- [20](days)
+- [21](days)
+- [22](days)
+- [23](days)
+- [24](days)
+- [25](days)
+- [26](days)
+- [27](days)
+- [28](days)
+- [29](days)
+- [30](days)
+- [31](days)
+- [32](days)
+- [33](days)
+- [34](days)
+- [35](days)
+- [36](days)
+- [37](days)
+- [38](days)
+- [39](days)
+- [40](days)
+- [41](days)
+- [42](days)
+- [43](days)
+- [44](days)
+- [45](days)
+- [46](days)
+- [47](days)
+- [48](days)
+- [49](days)
+- [50](days)
+- [51](days)
+- [52](days)
+- [53](days)
+- [54](days)
+- [55](days)
+- [56](days)
+- [57](days)
+- [58](days)
+- [59](days)
+- [one](days)
+- [two](days)
+- [three](days)
+- [four](days)
+- [five](days)
+- [six](days)
+- [seven](days)
+- [eight](days)
+- [nine](days)
+- [ten](days)
+- [eleven](days)
+- [twelve](days)
+- [thirteen](days)
+- [fourteen](days)
+- [fifteen](days)
+- [sixteen](days)
+- [seventeen](days)
+- [eighteen](days)
+- [nineteen](days)
+- [twenty](days)
+- [twenty-one](days)
+- [twenty-two](days)
+- [twenty-three](days)
+- [twenty-four](days)
+- [twenty-five](days)
+                                                             

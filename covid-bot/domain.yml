@@ -1,0 +1,31 @@
+intents:
+  - affirm
+  - deny
+  - repeat
+  - period
+
+actions:
+  - action_ask_help
+  - action_ask_travel
+  - action_ask_travel_when
+  - action_utter_coldCough
+  - action_ask_cough_when
+  - action_utter_fever
+  - action_ask_fever_when
+  - action_utter_breathingProblem
+  - action_ask_breathing_when
+  - action_schedule_appointment
+  - action_fallback
+
+
+entities:
+- days
+
+slots:
+  days:
+    type: text
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

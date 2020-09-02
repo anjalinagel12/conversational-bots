@@ -1,0 +1,35 @@
+actions:
+- action_ask_breathing_when
+- action_ask_cough_when
+- action_ask_fever_when
+- action_ask_help
+- action_ask_travel
+- action_ask_travel_when
+- action_fallback
+- action_schedule_appointment
+- action_utter_breathingProblem
+- action_utter_coldCough
+- action_utter_fever
+config:
+  store_entities_as_slots: true
+entities:
+- days
+forms: []
+intents:
+- affirm:
+    use_entities: true
+- deny:
+    use_entities: true
+- repeat:
+    use_entities: true
+- period:
+    use_entities: true
+responses: {}
+session_config:
+  carry_over_slots_to_new_session: true
+  session_expiration_time: 60
+slots:
+  days:
+    auto_fill: true
+    initial_value: null
+    type: rasa.core.slots.TextSlot
