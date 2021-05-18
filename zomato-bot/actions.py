@@ -58,7 +58,7 @@ class ActionSearchRestaurants(Action):
 			price_max = 9999
 		
 		# provide API key and initialise a 'zomato app' object
-		config={ "user_key": "4734a24a9caf5cd3ae0a0e9161e66212"}
+		config={ "user_key": "a60df80ddb6a197f5e37a95238aa3432"}
 		zomato = zomatopy.initialize_app(config)
 		cuisines_dict={'bakery':5,'chinese':25,'cafe':30,'italian':55,'biryani':7,'north indian':50,'south indian':85,'north':50,'south':85,'indian':80}
 
@@ -92,7 +92,9 @@ class ActionSearchRestaurants(Action):
 		#zomato = zomatopy.initialize_app(config)
 		loc = tracker.get_slot('location')
 		if loc == None:
-                        return dispatcher.utter_message('Location got is None')
+                        dispatcher.utter_message('Location got is None')
+                        return [AllSlotsReset()]
+
 		if loc.lower() not in cities:
                         print("----loc found == "+str(loc))
                         dispatcher.utter_message("We don't operate in your location  -- ++"+str(loc))
@@ -135,7 +137,7 @@ class ActionSendEmail(Action):
 			price_max = 9999
 		
 		# provide API key and initialise a 'zomato app' object
-		config={ "user_key": "4734a24a9caf5cd3ae0a0e9161e66212"}
+		config={ "user_key": "a60df80ddb6a197f5e37a95238aa3432"}
 		zomato = zomatopy.initialize_app(config)
 		cuisines_dict={'bakery':5,'chinese':25,'cafe':30,'italian':55,'biryani':7,'north indian':50,'south indian':85,'north':50,'south':85,'indian':80}
 
