@@ -183,7 +183,7 @@ class ActionSendEmail(Action):
 		s = smtplib.SMTP('smtp.office365.com', 587) 
 		s.starttls() 
 		try:
-			s.login("api.service@gnani.ai", "N30#P*zMmtaI%S")
+			s.login("api.service@gmail.com", "N30#P*zMmtaI%S")
 		except:
 			dispatcher.utter_message('bad credentials, your preferences deleted -- message ='+ message + res)
 			return [AllSlotsReset()]

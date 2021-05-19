@@ -45,6 +45,8 @@
     - slot{"price": "high"}
     - action_search_restaurants
     - slot{"location": "bengaluru"}
+    - utter_request_email
+* not
     - utter_goodbye
     - action_restart
 
@@ -59,6 +61,11 @@
     - slot{"price": "high"}
     - action_search_restaurants
     - slot{"got_all": "yes"}
+* affirm
+    - utter_request_email
+* email{"email": "gajulajagadeesh7@gmail.com"}
+    - slot{"email": "gajulajagadeesh7@gmail.com"}
+    - action_send_email
     - utter_goodbye
     - action_restart
 
@@ -73,6 +80,8 @@
     - slot{"price": "high"}
     - action_search_restaurants
     - slot{"got_all": "yes"}
+    - utter_email_prompt
+* not
     - utter_goodbye
     - action_restart
 
@@ -85,6 +94,12 @@
     - slot{"price": "high"}
     - action_search_restaurants
     - slot{"got_all": "yes"}
+    - utter_email_prompt
+* affirm
+    - utter_request_email
+* email{"email": "gajulajagadeesh7@gmail.com"}
+    - slot{"email": "gajulajagadeesh7@gmail.com"}
+    - action_send_email
     - utter_goodbye
     - action_restart
 
@@ -98,6 +113,9 @@
 * restaurant_search{"cuisine": "North Indian"}
     - slot{"cuisine": "North Indian"}
     - action_search_restaurants
+    - utter_email_prompt
+* affirm
+    - action_send_email
     - utter_goodbye
     - action_restart
 
@@ -107,6 +125,8 @@
     - slot{"location": "new delhi"}
     - slot{"price": "low"}
     - action_search_restaurants
+    - utter_email_prompt
+* not{"not": "no"}
     - utter_goodbye
     - action_restart
 
@@ -118,6 +138,12 @@
 * restaurant_search{"cuisine": "South Indian"}
     - slot{"cuisine": "South Indian"}
     - action_search_restaurants
+    - utter_email_prompt
+* affirm
+    - utter_request_email
+* email{"email": "srinivas.soma@gmail.com"}
+    - slot{"email": "srinivas.soma@gmail.com"}
+    - action_send_email
     - utter_goodbye
     - action_restart
 
@@ -131,6 +157,8 @@
 * price{"price": "low"}
     - slot{"price": "low"}
     - action_search_restaurants
+    - utter_email_prompt
+* not
     - utter_goodbye
     - action_restart
 
