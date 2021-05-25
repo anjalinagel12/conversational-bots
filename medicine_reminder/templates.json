@@ -1,0 +1,11 @@
+{
+    "utter_ask_availability":"Hello, We are here to put one reminder for your medicine. Please let me know if you are available for a few minutes",
+    "utter_ask_medicine":"we got to know you were affected with Covid recently. Can you please confirm if you are still taking medicines",
+    "utter_ask_medicine_names":"please let me know the medicine names ",
+    "utter_ask_timing":"do you want take the medicine in the morning afternoon or in the night",
+    "utter_will_notify":"Thanks for your input. we will notify you for your medicine. Have a good day",
+    "utter_healthy":"we are glad to know about your good health. Thanks for your time. Have a good day",
+    "initial_message":"Please let me know if you are available for a few minutes",
+    "utter_fallback":"Sorry, we couldn't understand you"
+
+}

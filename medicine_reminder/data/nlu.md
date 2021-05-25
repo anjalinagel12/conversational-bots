@@ -1,0 +1,208 @@
+## intent:intent_affirm
+- Yes
+- Yes yes
+- Yes positively
+- Yes surely
+- Yes definitely
+- Yes i will
+- Yes why not
+- Yes i would like to
+- yeah sure
+- yes
+- of course
+- sure
+- yeah
+- ok
+- cool
+- yep
+- yep will do thank you
+- I am sure I will
+- awesome
+- accept
+- i accept
+- ok i accept
+- ok cool
+- alright
+- i will
+- oki doki
+- confirm
+- nice
+- yup
+- sure thing
+- absolutely
+- yes i accept
+- ofcourse
+- i am sure i will
+- yes please
+- definitely
+- perfect
+- Sure
+- great
+- fine
+- yupe
+- i told you to go ahead
+- you are correct
+- carry on
+- go on
+- okey dokey
+- positive
+- Go ahead
+- proceed
+- continue
+- correctji
+- correct ji
+- haan madam
+- haan sir
+- ok madam
+- ok sir
+- ok ji
+- teeke ji
+- teeke teeke
+- teakay ji
+- teekai ji
+- go on
+- carry on
+- correct madam 
+- correct sir
+- aur boliye
+- aur bolo
+- Yass
+- Yes
+- yess
+- yep
+- yeah
+- hello
+- hey
+
+
+## intent:affirm_medicine
+- yes i am eating medicine
+- yes i have to take my medicine 
+- i need to take my medicine
+- need to take it
+- yet to take my medicine
+- yes i have to take
+- you got it i need my medicine
+- i am yet to take the medicine
+- yes i want to the my tablets
+- i need to take my tablets
+- i need tablets timely
+- need to take the tablets
+- i need to take tablet timely
+- really need tablets
+- i need to take my pills madam
+- madam i need pills for my health
+- need to take my pills 
+- health wise i need to take my tablets and pills timely
+
+
+
+## intent:deny_medicine
+- hey i dont need any medicine
+- not needed any medicine
+- no medicine required
+- i dont eat any medicine
+- do not take any tablets madam
+- no no not needed any tablets
+- i am not taking any medicine
+- no medicine needed currently
+- i am completely fine and not dependent on any medicine
+- hey i dont need any tablets and pills
+- no i dont take any medicine
+- madam i am completely fine i dont need any medicine
+- i am completely fine and well no medicine needed
+- i dont need to take any medicune
+
+
+## intent:medicine_timing
+- i have to take it in the [night](time)
+- i take medicine in the [night](time)
+- need to take my medicine by [night](time)
+- i should take medicine [night](time)
+- by [night](time)
+- in the [night](time)
+- maybe by [night](time)
+- should take by [night](time)
+- i want to take it [morning](time)
+- should take my medine by [morning](time)
+- [morning](time) i need to have it
+- usually i take it in [morning](time)
+- i take [morning](time) only
+- medicine i take by [morning](time)
+- [morning](time) only
+- [afternoon](time) only madam
+- i need to take it by [afternoon](time) after lunch
+- should take it by [afternoon](time)
+- by [afternoon](time)
+- need it [afternoon](time) my medicine
+- madam by [afternoon](time)
+- i need to take by [afternoon](time)
+- after lunch in the [afternoon](time)
+- [afternoon](time) after lunch
+
+
+## intent:intent_deny
+- no
+- unsure about that
+- unsure
+- never
+- cannot decide that now
+- i do not confirm
+- definitely not
+- absolutely not
+- im afraid not
+- no sir
+- no ma'am
+- no way
+- no sorry
+- nah not for me
+- nah
+- no and no again
+- no go
+- no thanks
+- decline
+- i decline
+- no i dont accept
+- no i cant
+- i am not sure
+- nein
+- not really
+- i guess it means no
+- nah thanks
+- no thankyou
+- nope
+- no no
+- cant
+- cannot
+- i can not
+- not now
+- now i want
+- now now
+- false
+- deny
+- not here
+
+## intent:repeat
+- please repeat
+- tell me again
+- can you repeat
+- i did not get you
+- please come again
+- i did not understand
+- what did u tell
+- repeat again
+- i dint get u
+- sorry i did not get u
+- i didnt understand
+- excuse me can you repeat it again
+- excuse me can you say it again
+- sorry did not get you
+- come again
+- say again
+- tell me again please
+- repeat
+- say that again
+- tell that again
+- pardon
+- pardon me
+- i beg your pardon                                

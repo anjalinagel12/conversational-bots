@@ -1,0 +1,30 @@
+{
+  "action_fingerprints": {
+    "action_listen": {
+      "slots": []
+    },
+    "action_schedule_appointment": {
+      "slots": []
+    }
+  },
+  "python": "3.6.9",
+  "max_histories": [
+    5,
+    5,
+    null,
+    2,
+    null
+  ],
+  "ensemble_name": "rasa.core.policies.ensemble.SimplePolicyEnsemble",
+  "policy_names": [
+    "rasa.core.policies.memoization.MemoizationPolicy",
+    "rasa.core.policies.ted_policy.TEDPolicy",
+    "rasa.core.policies.mapping_policy.MappingPolicy",
+    "rasa.core.policies.form_policy.FormPolicy",
+    "rasa.core.policies.fallback.FallbackPolicy"
+  ],
+  "trained_at": "20200831-162757",
+  "rasa": "1.10.0",
+  "tensorflow": "2.1.1",
+  "sklearn": "0.22.2.post1"
+}
