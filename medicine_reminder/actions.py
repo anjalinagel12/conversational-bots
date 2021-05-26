@@ -12,7 +12,7 @@ from typing import Any, Text, Dict, List, Union, Optional
 from typing import Any, Text, Dict, List
 import json
 from rasa_sdk import Action, Tracker
-from rasa_sdk.events import AllSlotsReset, FollowupAction, UserUtteranceReverted, ActionReverted, Restarted
+from rasa_sdk.events import AllSlotsReset, FollowupAction, UserUtteranceReverted, ActionReverted, Restarted, EventType,SlotSet
 from rasa_sdk.executor import CollectingDispatcher
 import pickle
 import datetime
@@ -24,6 +24,8 @@ from datetime import datetime
 import pytz
 
 IST = pytz.timezone('Asia/Kolkata') 
+
+from cron_job import initiate_background_task
 
 with open("templates.json", "r", encoding="utf-8") as temp:
     templates = json.load(temp)
@@ -51,19 +53,31 @@ class FormQuestions(FormAction):
     def required_slots(tracker: Tracker) -> List[Text]:
         return ["question1","question2","question3"]
     def slot_mappings(self) -> Dict[Text, Union[Dict, List[Dict]]]:
-        return{"question1": self.from_text(),"question2":self.from_text()}
+        return{"question1": self.from_text(),"question2":self.from_text(),"question3":self.from_text()}
 
     def validate_question1(self, value: Text,dispatcher: CollectingDispatcher,tracker: Tracker,domain: Dict[Text, Any]) -> Dict[Text, Any]:
         val=tracker.latest_message['text']
         intent_name = tracker.latest_message['intent']['name']
+        print("===intent = ",str(intent_name))
         if intent_name in ['affirm_medicine','intent_affirm','medicine_timing']:
             return {"question1": value}
 
         elif intent_name in ['deny_medicine','intent_deny']:
-            return {"question1": "no","question2": "no","question2": "no"}
+            return {"question1": "no","question2": "no","question2": "no","question3": "no"}
         
         else:
             return {"question1": None}
+    def validate_question3(self, value: Text,dispatcher: CollectingDispatcher,tracker: Tracker,domain: Dict[Text, Any]) -> Dict[Text, Any]:
+        val=tracker.latest_message['text']
+        intent_name = tracker.latest_message['intent']['name']
+        print("===intent = ",str(intent_name))
+        time = tracker.get_slot('time')
+        print("===time slot = "+str(time))
+        if time is None: 
+            return {"question3": None}
+
+        else:
+            return {"question3": value}
 
 
     def request_next_slot(

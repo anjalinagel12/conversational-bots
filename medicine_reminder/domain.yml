@@ -5,7 +5,6 @@ intents:
   - medicine_timing
   - intent_deny
   - repeat
-  - 
 
 actions:
   - action_ask_availability
