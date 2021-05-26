@@ -8,21 +8,18 @@ intents:
   - 
 
 actions:
-  - action_ask_help
-  - action_ask_travel
-  - action_ask_travel_when
-  - action_utter_coldCough
-  - action_ask_cough_when
-  - action_utter_fever
-  - action_ask_fever_when
-  - action_utter_breathingProblem
-  - action_ask_breathing_when
-  - action_schedule_appointment
+  - action_ask_availability
+  - action_notify
   - action_fallback
 
 
+
 entities:
-- time
+  - time
+
+forms:
+  - form_questions
+
 
 slots:
   time:
