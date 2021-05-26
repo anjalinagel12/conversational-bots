@@ -27,6 +27,12 @@ entities:
 slots:
   time:
     type: text
+  question1:
+    type: unfeaturized
+  question2:
+    type: unfeaturized
+  question3:
+    type: unfeaturized
 
 
 session_config:
